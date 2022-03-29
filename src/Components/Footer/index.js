@@ -7,9 +7,9 @@ const Footer = ({ empresa }) => {
         return creationYear === currentYear ? currentYear : `${creationYear} - ${currentYear}`;
     }
     return (
-        <footer className="fixed bottom-0 w-full" id="footer">
-            <div className="bg-indigo-400 text-white p-4 pb-1 text-center">
-                <ul className="flex flex-row">
+        <footer className="bottom-0 w-full" id="footer">
+            <div className="bg-indigo-400 text-white p-4 text-center h-20 flex flex-col space-y-5">
+                <ul className="px-60 flex flex-row justify-evenly items-center ">
                     <li>
                         <a href="https://www.facebook.com/douglas.araujo.921/" >
                             <FaFacebook />
@@ -21,7 +21,7 @@ const Footer = ({ empresa }) => {
                         </a>
                     </li>
                     <li>
-                        <a href="linkedin.com/in/douglas-araujo-393998179">
+                        <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
                             <FaLinkedin />
                         </a>
                     </li>
